@@ -13,14 +13,11 @@ export function VisitSupportSection() {
                          <div className="p-8 md:p-12 lg:p-20 space-y-6 md:space-y-8">
                             <h2 className="text-2xl md:text-4xl lg:text-5xl font-black uppercase tracking-tighter">Support the Library</h2>
                             <p className="text-zinc-400 text-sm md:text-base lg:text-lg leading-snug md:leading-relaxed">
-                                Your donation helps us buy new books, maintain the facility, and provide scholarships to the dedicated students who use this space.
+                                Your donation helps us buy new books, maintain the facility, and provide better resources for the dedicated students who use this space.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
                                 <Button size="lg" className="rounded-xl md:rounded-2xl h-12 md:h-14 px-6 md:px-8 font-bold text-sm md:text-base" asChild>
-                                    <Link href="/sponsor-students">Donate</Link>
-                                </Button>
-                                <Button size="lg" variant="outline" className="rounded-xl md:rounded-2xl h-12 md:h-14 px-6 md:px-8 font-bold text-sm md:text-base border-zinc-800 hover:bg-zinc-900" asChild>
-                                    <Link href="/sponsor-students">Sponsor Students</Link>
+                                    <Link href="/donate">Donate Now</Link>
                                 </Button>
                             </div>
                          </div>

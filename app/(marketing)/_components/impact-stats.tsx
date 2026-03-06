@@ -1,7 +1,7 @@
 import { Users, BookOpen, TrendingUp, Award } from "lucide-react";
 
 const impactStats = [
-  { label: 'Students Supported', value: '250+', icon: Users },
+  { label: 'Lives Impacted', value: '500+', icon: Users },
   { label: 'Books in Library', value: '1,500+', icon: BookOpen },
   { label: 'Success Rate', value: '95%', icon: TrendingUp },
   { label: 'Years of Service', value: '10+', icon: Award },

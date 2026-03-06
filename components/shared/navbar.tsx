@@ -40,7 +40,6 @@ import Image from "next/image"
 const navLinks = [
   { href: "/", label: "Home", icon: Home },
   { href: "/about", label: "About", icon: Info },
-  { href: "/sponsor-students", label: "Sponsor Students", icon: GraduationCap },
   { href: "/free-library-study-room", label: "Free Library", icon: BookOpen },
   { href: "/old-age-home", label: "Old Age Home", icon: Building2 },
   { href: "/contact", label: "Contact", icon: Phone },
@@ -166,7 +165,7 @@ export function Navbar() {
                   )}
                 </>
               )}
-              <Link href="/sponsor-students">
+              <Link href="/donate">
                 <Button className="bg-primary text-white font-bold rounded-xl px-6 shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-all">
                   Donate
                 </Button>
@@ -307,7 +306,7 @@ export function Navbar() {
                         </div>
                       )}
 
-                      <Link href="/sponsor-students" onClick={() => setIsOpen(false)} className="block">
+                      <Link href="/donate" onClick={() => setIsOpen(false)} className="block">
                         <Button className="w-full h-12 text-base font-black uppercase tracking-tight shadow-lg shadow-primary/30 rounded-xl">
                           Donate
                         </Button>

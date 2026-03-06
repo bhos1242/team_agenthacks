@@ -11,10 +11,10 @@ export function AboutCTA() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Button size="lg" variant="secondary" className="rounded-xl h-12 px-8 font-bold shadow-xl shadow-black/10 hover:scale-105 transition-all" asChild>
-                        <Link href="/sponsor-students">Sponsor Students</Link>
+                        <Link href="/donate">Donate Now</Link>
                     </Button>
                     <Button size="lg" variant="outline" className="rounded-xl h-12 px-8 border-2 border-white text-white hover:bg-white hover:text-primary font-bold transition-all" asChild>
-                        <Link href="/sponsor-students">Donate</Link>
+                        <Link href="/contact">Volunteer</Link>
                     </Button>
                 </div>
             </div>

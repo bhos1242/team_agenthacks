@@ -9,14 +9,12 @@ export function Footer() {
 
   const quickLinks = [
     { label: "About Us", href: "/about" },
-    { label: "Sponsor Students", href: "/sponsor-students" },
     { label: "Free Library", href: "/free-library-study-room" },
     { label: "Old Age Home", href: "/old-age-home" },
     { label: "Contact Us", href: "/contact" },
   ]
 
   const programs = [
-    "Education Sponsorship",
     "Library & Study Space",
     "Elderly Care Services",
     "Community Outreach",

@@ -3,6 +3,7 @@ import { ImpactStats } from "./_components/impact-stats";
 import { ProgramsSection } from "./_components/programs-section";
 import { FeaturedStudents } from "./_components/featured-students";
 import { LifeAtSamarpan } from "./_components/life-at-samarpan";
+import { GallerySection } from "./_components/gallery-section";
 import { QuoteSection } from "./_components/quote-section";
 import { FAQSection } from "./_components/faq-section";
 import { FinalCta } from "./_components/final-cta";
@@ -90,8 +91,9 @@ export default function Home() {
       {/* Extracted Sections */}
       <ImpactStats />
       <ProgramsSection />
-      <FeaturedStudents />
+      {/* <FeaturedStudents /> */}
       <LifeAtSamarpan />
+      <GallerySection />
       <QuoteSection />
       <FAQSection />
       <FinalCta />

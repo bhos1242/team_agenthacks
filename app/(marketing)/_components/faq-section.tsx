@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     question: "How can I support Seva Samarpan?",
-    answer: "You can support us through student sponsorships, general donations, or by volunteering. Visit our 'Sponsor Students' page to see specific student needs."
+    answer: "You can support us through general donations or by volunteering. Your contributions directly help sustain our library and old age home facilities."
   },
   {
     question: "Is Seva Samarpan a registered NGO?",
@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "How are donations utilized?",
-    answer: "100% of student-specific sponsorships go directly towards their tuition, uniforms, and educational materials. General donations support our old age home and library maintenance."
+    answer: "Your donations go directly towards maintaining our old age home, sustaining the free library for students, and providing essential educational materials and care services."
   },
   {
     question: "Can I visit the Old Age Home or Library?",

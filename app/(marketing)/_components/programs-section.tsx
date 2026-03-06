@@ -22,13 +22,6 @@ const programs = [
     link: '/old-age-home',
     color: 'secondary',
   },
-  {
-    title: 'Sponsorship for Needy Students',
-    description: 'Direct financial and academic support for students, covering tuition, uniforms, and essential educational materials.',
-    icon: Heart,
-    link: '/sponsor-students',
-    color: 'accent',
-  },
 ];
 
 export function ProgramsSection() {
@@ -67,7 +60,7 @@ export function ProgramsSection() {
         </div>
 
         {/* Desktop Grid / Mobile Carousel Wrapper */}
-        <div className="hidden md:grid md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="hidden md:grid md:grid-cols-2 gap-6 lg:gap-8 max-w-4xl mx-auto">
           {programs.map((program, index) => (
             <ProgramCard key={index} program={program} />
           ))}

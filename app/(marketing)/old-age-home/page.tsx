@@ -3,6 +3,7 @@ import { OldAgeHomeHero } from './_components/old-age-home-hero'
 import { NewsSection } from './_components/news-section'
 import { VisitUsSection } from './_components/visit-us-section'
 import { MissionSection } from './_components/mission-section'
+import { Gallery } from './_components/gallery'
 import { ContactCTA } from './_components/contact-cta'
 
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function OldAgeHomePage() {
             <NewsSection />
             <VisitUsSection />
             <MissionSection />
+            <Gallery />
             <ContactCTA />
         </div>
     )
