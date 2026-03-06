@@ -58,7 +58,7 @@ export default function RefundPolicy() {
               How to Request a Refund
             </h2>
             <p className="text-muted-foreground leading-relaxed font-medium">
-              To request a refund, please send an email to <strong className="text-foreground">contact@samarpan.org</strong> with the transaction details (Date, Amount, Transaction ID) and the reason for the refund request.
+              To request a refund, please send an email to <strong className="text-foreground">sevasamarpanngo@gmail.com</strong> with the transaction details (Date, Amount, Transaction ID) and the reason for the refund request.
             </p>
           </section>
         </div>

@@ -9,20 +9,19 @@ export function AboutHero() {
             </div>
             
             <div className="container mx-auto px-4 relative z-10">
-                <div className="max-w-3xl mx-auto text-center space-y-4 md:space-y-6">
-                    <div className="inline-flex items-center gap-1.5 px-3 py-1.5 md:px-4 md:py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-medium mb-2 md:mb-4">
-                        <MapPin className="h-3 w-3 md:h-4 md:w-4" />
+                <div className="max-w-3xl mx-auto text-center space-y-3">
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-black mb-2 uppercase tracking-tight">
+                        <MapPin className="h-3.5 w-3.5" />
                         Pune, Maharashtra
                     </div>
-                    <h1 className="text-3xl md:text-5xl font-black leading-tight tracking-tight">
+                    <h1 className="text-4xl md:text-6xl font-black leading-tight tracking-tight">
                         About{' '}
-                        <span className="bg-linear-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+                        <span className="text-primary italic">
                             Seva Samarpan
                         </span>
                     </h1>
-                    <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-snug md:leading-relaxed font-medium">
-                        Dedicated to transforming lives through quality education for underprivileged students
-                        and compassionate care for elders since 2014.
+                    <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto leading-tight font-bold">
+                        Empowering students through education and caring for elders with dignity.
                     </p>
                 </div>
             </div>

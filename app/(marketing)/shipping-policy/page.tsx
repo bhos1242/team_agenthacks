@@ -55,7 +55,7 @@ export default function ShippingPolicy() {
               Contact Information
             </h2>
             <p className="text-muted-foreground leading-relaxed font-medium">
-              If you have not received your digital receipt or have any queries regarding the delivery of your 80G certificate, please reach out to us at <strong className="text-foreground">contact@samarpan.org</strong>.
+              If you have not received your digital receipt or have any queries regarding the delivery of your 80G certificate, please reach out to us at <strong className="text-foreground">sevasamarpanngo@gmail.com</strong>.
             </p>
           </section>
         </div>

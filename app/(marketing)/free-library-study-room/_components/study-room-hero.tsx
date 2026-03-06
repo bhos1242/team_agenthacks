@@ -23,6 +23,16 @@ export function StudyRoomHero() {
                 <p className="text-lg md:text-xl lg:text-2xl opacity-90 max-w-2xl mx-auto font-medium leading-snug md:leading-relaxed">
                     Empowering tribal and underprivileged students through access to a world-class library and quiet study sanctuary.
                 </p>
+                <div className="pt-4 md:pt-6">
+                    <a 
+                        href="https://samarpan.abhyasika.online" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="inline-flex h-12 md:h-14 items-center justify-center rounded-2xl bg-primary px-6 md:px-10 text-sm md:text-base font-black uppercase tracking-widest text-white shadow-xl shadow-primary/30 transition-all hover:scale-105 hover:bg-primary/90"
+                    >
+                        Visit Library Portal
+                    </a>
+                </div>
             </div>
         </section>
     )

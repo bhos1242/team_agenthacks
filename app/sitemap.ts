@@ -8,7 +8,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/about',
         '/free-library-study-room',
         '/old-age-home',
-        '/sponsor-students',
         '/contact',
         '/privacy',
         '/terms',

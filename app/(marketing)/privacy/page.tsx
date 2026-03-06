@@ -74,7 +74,7 @@ export default function PrivacyPolicy() {
             <p className="text-muted-foreground leading-relaxed font-medium">
               If you have any questions about this Privacy Policy, please contact us at:
               <br />
-              <strong className="text-foreground">Email:</strong> contact@samarpan.org
+              <strong className="text-foreground">Email:</strong> sevasamarpanngo@gmail.com
               <br />
               <strong className="text-foreground">Phone:</strong> +91 94222 62499
             </p>

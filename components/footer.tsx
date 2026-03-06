@@ -106,8 +106,8 @@ export function Footer() {
                    <div className="w-10 h-10 rounded-xl bg-zinc-900 flex items-center justify-center shrink-0 border border-zinc-800 group-hover:border-primary/30 transition-colors">
                     <Mail className="h-5 w-5 text-primary" />
                   </div>
-                  <a href="mailto:contact@samarpan.org" className="text-zinc-400 font-medium hover:text-white transition-colors">
-                    contact@samarpan.org
+                  <a href="mailto:sevasamarpanngo@gmail.com" className="text-zinc-400 font-medium hover:text-white transition-colors">
+                    sevasamarpanngo@gmail.com
                   </a>
                 </li>
               </ul>

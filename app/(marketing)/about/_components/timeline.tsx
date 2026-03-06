@@ -1,12 +1,8 @@
 import { Card } from '@/components/ui/card'
 
 const milestones = [
-    { year: '2014', event: 'Seva Samarpan NGO founded in Pune' },
-    { year: '2015', event: 'Study room and library established with 500 books' },
-    { year: '2017', event: 'Reached 100 students supported milestone' },
-    { year: '2019', event: 'Seva Samarpan Old Age Home opened' },
-    { year: '2022', event: 'Library expanded to 1,500+ books' },
-    { year: '2024', event: '250+ students supported, 95% success rate achieved' },
+    { year: '2025', event: 'Founded in Pune with the Seva Samarpan Free Library & Study Room, providing a quiet space for over 100 students.' },
+    { year: 'Jan 2026', event: 'Expanded our heart and mission with the Seva Samarpan Old Age Home, offering compassionate care for our elders.' },
 ]
 
 export function Timeline() {

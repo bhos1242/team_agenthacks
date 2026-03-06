@@ -10,9 +10,9 @@ import { FinalCta } from "./_components/final-cta";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Seva Samarpan | Best NGO in Pune | Empowering Lives",
-  description: "Seva Samarpan is the best NGO in Pune helping students with education and providing a safe old age home. Find an NGO near me dedicated to social impact.",
-  keywords: ["best NGO in Pune", "NGO near me", "NGO helping student", "Seva Samarpan", "NGO in Pune"],
+  title: "Seva Samarpan | Top-Rated NGO in Pune | Education & Elder Care",
+  description: "Seva Samarpan is a leading NGO in Pune, Maharashtra. We provide free study rooms for students and compassionate care in our old age home. Support Pune's best NGO today.",
+  keywords: ["best NGO in Pune", "NGO near me Pune", "free library Pune", "old age home Pune", "Seva Samarpan", "Pune social services", "NGO Maharashtra"],
   openGraph: {
     title: "Seva Samarpan | Top-Rated NGO in Pune",
     description: "Empowering tribal students with free study rooms and caring for elders. Support the best NGO near me today.",

@@ -57,7 +57,7 @@ export function GallerySection() {
             transition={{ delay: 0.1 }}
             className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto"
           >
-            A glimpse into the life at Seva Samarpan, where every elder is treated with dignity and every student finds a path to success.
+            A glimpse into the life at Seva Samarpan, where we care for our elders with dignity and provide students with the perfect environment to grow.
           </motion.p>
         </div>
 

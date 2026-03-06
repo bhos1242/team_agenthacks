@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     default: "Seva Samarpan | NGO in Pune",
     template: "%s | Seva Samarpan",
   },
-  description: "Empowering lives through education and care in Pune. We provide free study rooms, education sponsorships, and run a dignified old age home.",
-  keywords: ["NGO", "NGO near me", "best NGO near me", "Pune", "Pune", "Education", "Old Age Home", "Charity", "Social Work", "Seva Samarpan"],
+  description: "Seva Samarpan is a leading NGO in Pune dedicated to empowering students through free libraries and providing dignified care for elders in our old age home.",
+  keywords: ["NGO in Pune", "best NGO near me", "free library Pune", "old age home Pune", "charity for students Pune", "Seva Samarpan NGO", "Pune social work", "NGO for elderly Pune"],
   authors: [{ name: "Seva Samarpan" }],
   creator: "Seva Samarpan",
   openGraph: {
@@ -43,6 +43,9 @@ export const metadata: Metadata = {
     description: "Empowering lives through education and care in Pune.",
     images: [`/api/og?title=${encodeURIComponent("Seva Samarpan")}&description=${encodeURIComponent("Empowering lives through education and care in Pune.")}`],
   },
+  verification: {
+    google: "BwI_9JRy2KhlYRbLuy3laTHKkfMfq_bSRsFlNv0WDSo",
+  },
 };
 
 export default function RootLayout({
@@ -64,19 +67,26 @@ export default function RootLayout({
               "@id": "https://sevasamarpan.org/#organization",
               "name": "Seva Samarpan",
               "url": "https://sevasamarpan.org",
-              "logo": "https://sevasamarpan.org/logo.png",
-              "description": "Seva Samarpan is a dedicated NGO in Pune, empowering lives through education and holistic elderly care.",
+              "logo": "https://sevasamarpan.org/logo/logo_high.png",
+              "description": "Seva Samarpan is a leading NGO in Pune, Maharashtra, providing a free library and study room for students and a compassionate old age home for elders.",
               "address": {
                 "@type": "PostalAddress",
+                "streetAddress": "Pune district",
                 "addressLocality": "Pune",
                 "addressRegion": "Maharashtra",
+                "postalCode": "411001",
                 "addressCountry": "IN"
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+91-XXXXXXXXXX",
-                "contactType": "General Support"
-              }
+                "telephone": "+91-9422262499",
+                "contactType": "General inquiries",
+                "email": "sevasamarpanngo@gmail.com"
+              },
+              "sameAs": [
+                "https://www.facebook.com/sevasamarpan",
+                "https://www.instagram.com/sevasamarpan"
+              ]
             })
           }}
         />
